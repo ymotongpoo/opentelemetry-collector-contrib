@@ -10,7 +10,6 @@ require (
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20200514230353-811a247d06e8+incompatible
 	github.com/docker/go-connections v0.4.0
-	github.com/googleapis/gnostic v0.4.1 // indirect
 	github.com/gotestyourself/gotestyourself v1.4.0 // indirect
 	github.com/imdario/mergo v0.3.10 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
@@ -21,8 +20,7 @@ require (
 	go.opentelemetry.io/collector v0.8.1-0.20200815205113-8e5c6065eb0e
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
 	gotest.tools v1.4.0 // indirect
-	k8s.io/client-go v0.18.6
-	k8s.io/utils v0.0.0-20200724153422-f32512634ab7 // indirect
+	k8s.io/client-go v0.19.0
 )
 
 // Yet another hack that we need until kubernetes client moves to the new github.com/googleapis/gnostic
